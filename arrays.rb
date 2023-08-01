@@ -56,3 +56,8 @@ puts average_temp[2]
 puts 
 puts true_or_false[0]
 puts true_or_false[4]
+
+# Below example will utilize insert method to insert a new element to the index position as indicated.
+
+fav_artists.insert(1, "Megan Thee Stallion")
+p fav_artists
