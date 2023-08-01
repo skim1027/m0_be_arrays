@@ -30,3 +30,29 @@ puts
 # This method will add an element indicated in parenthesis at the beginning of the true_or_false array.
 true_or_false.unshift(1 <= 3)
 p true_or_false
+
+puts
+
+=begin
+The index position is a position of the element.  
+The first element is given an index position of 0. 
+For all four of the arrays, initial number of elements were 4. 
+With the array methods, the last index position changed as follows:
+fav_artist = 2
+significant_age = 4
+average_temp = 2
+tru_or_false = 4
+
+I will print the first and last index position of each array.
+=end
+puts fav_artists[0]
+puts fav_artists[2]
+puts
+puts significant_age[0]
+puts significant_age[4]
+puts
+puts average_temp[0]
+puts average_temp[2]
+puts 
+puts true_or_false[0]
+puts true_or_false[4]
