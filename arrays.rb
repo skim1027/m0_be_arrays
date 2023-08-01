@@ -10,4 +10,23 @@ puts
 puts average_temp
 puts
 puts true_or_false
+puts
 
+# This method will remove the last element from the artist array. 
+fav_artists.pop
+p fav_artists
+puts
+
+# This method will add an element indicated in parenthesis at the end of the significant_age array.
+significant_age.push(35)
+p significant_age
+puts 
+
+# This method will remove the first element from the average_temp array.
+average_temp.shift
+p average_temp
+puts 
+
+# This method will add an element indicated in parenthesis at the beginning of the true_or_false array.
+true_or_false.unshift(1 <= 3)
+p true_or_false
